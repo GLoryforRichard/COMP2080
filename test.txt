@@ -1,0 +1,1 @@
+If the file contains multiple words per line, separated by spaces or other characters, you may need to modify the code to split each line into individual words before adding them to the array.
