@@ -1,3 +1,5 @@
+package initialUnnamedFile;
+
 public class WordInfo {
     private String word;
     private String meaning;

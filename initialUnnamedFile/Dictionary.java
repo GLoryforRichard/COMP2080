@@ -1,3 +1,5 @@
+package initialUnnamedFile;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
@@ -11,7 +13,7 @@ public class Dictionary {
         this.wordList = new WordInfo[MAX_SIZE];
         this.count = 0;
 //        System.out.println("Class start");
-        loadWordsFromFile("wordList.txt");
+        loadWordsFromFile("initialUnnamedFile/wordList.txt");
     }
 
     private void loadWordsFromFile(String fileName) {
